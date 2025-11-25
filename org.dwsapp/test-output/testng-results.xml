@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser Setup Success]]>
+    </line>
+    <line>
+      <![CDATA[Login success]]>
+    </line>
+    <line>
+      <![CDATA[SearchBox validated successfully]]>
+    </line>
+    <line>
+      <![CDATA[SearchData - book entered successfully]]>
+    </line>
+    <line>
+      <![CDATA[SearchButton successfully clicked]]>
+    </line>
+    <line>
+      <![CDATA[Book added to cart successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Shopping Cart]]>
+    </line>
+    <line>
+      <![CDATA[terms and Condition checkbox selected]]>
+    </line>
+    <line>
+      <![CDATA[Checkout button selected]]>
+    </line>
+    <line>
+      <![CDATA[Step 11: Billing Address Continue button clicked]]>
+    </line>
+    <line>
+      <![CDATA[Shipping Address Continue button selected]]>
+    </line>
+    <line>
+      <![CDATA[Shipping Method Continue Button]]>
+    </line>
+    <line>
+      <![CDATA[Payment Method Continue Button]]>
+    </line>
+    <line>
+      <![CDATA[Payment Info Continue Button]]>
+    </line>
+    <line>
+      <![CDATA[Confirm order Button]]>
+    </line>
+    <line>
+      <![CDATA[BookTest - HealthBook - verified]]>
+    </line>
+    <line>
+      <![CDATA[Logout success]]>
+    </line>
+    <line>
+      <![CDATA[Browser Terminate Success]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-11-25T16:56:47 IST" name="RegressionSuite" finished-at="2025-11-25T16:57:24 IST" duration-ms="36775">
+    <groups>
+      <group name="RT">
+        <method signature="ProductTest.Book_HealthBookTest()[pri:6, instance:org.dwsapp.allproductstest.ProductTest@2362f559]" name="Book_HealthBookTest" class="org.dwsapp.allproductstest.ProductTest"/>
+      </group> <!-- RT -->
+    </groups>
+    <test started-at="2025-11-25T16:56:47 IST" name="Test" finished-at="2025-11-25T16:57:24 IST" duration-ms="36775">
+      <class name="org.dwsapp.allproductstest.ProductTest">
+        <test-method is-config="true" signature="ReportSetup()[pri:0, instance:org.dwsapp.allproductstest.ProductTest@2362f559]" started-at="2025-11-25T16:56:47 IST" name="ReportSetup" finished-at="2025-11-25T16:56:47 IST" duration-ms="329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReportSetup -->
+        <test-method is-config="true" signature="browserSetup(java.lang.String,java.lang.String)[pri:0, instance:org.dwsapp.allproductstest.ProductTest@2362f559]" started-at="2025-11-25T16:56:47 IST" name="browserSetup" finished-at="2025-11-25T16:57:02 IST" duration-ms="15241" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://demowebshop.tricentis.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Setup Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method is-config="true" signature="login()[pri:0, instance:org.dwsapp.allproductstest.ProductTest@2362f559]" started-at="2025-11-25T16:57:02 IST" name="login" finished-at="2025-11-25T16:57:05 IST" duration-ms="3217" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="Book_HealthBookTest()[pri:6, instance:org.dwsapp.allproductstest.ProductTest@2362f559]" started-at="2025-11-25T16:57:05 IST" name="Book_HealthBookTest" finished-at="2025-11-25T16:57:20 IST" duration-ms="14649" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SearchBox validated successfully]]>
+            </line>
+            <line>
+              <![CDATA[SearchData - book entered successfully]]>
+            </line>
+            <line>
+              <![CDATA[SearchButton successfully clicked]]>
+            </line>
+            <line>
+              <![CDATA[Book added to cart successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Shopping Cart]]>
+            </line>
+            <line>
+              <![CDATA[terms and Condition checkbox selected]]>
+            </line>
+            <line>
+              <![CDATA[Checkout button selected]]>
+            </line>
+            <line>
+              <![CDATA[Step 11: Billing Address Continue button clicked]]>
+            </line>
+            <line>
+              <![CDATA[Shipping Address Continue button selected]]>
+            </line>
+            <line>
+              <![CDATA[Shipping Method Continue Button]]>
+            </line>
+            <line>
+              <![CDATA[Payment Method Continue Button]]>
+            </line>
+            <line>
+              <![CDATA[Payment Info Continue Button]]>
+            </line>
+            <line>
+              <![CDATA[Confirm order Button]]>
+            </line>
+            <line>
+              <![CDATA[BookTest - HealthBook - verified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Book_HealthBookTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:org.dwsapp.allproductstest.ProductTest@2362f559]" started-at="2025-11-25T16:57:20 IST" name="logout" finished-at="2025-11-25T16:57:23 IST" duration-ms="2823" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="browserTerminate()[pri:0, instance:org.dwsapp.allproductstest.ProductTest@2362f559]" started-at="2025-11-25T16:57:23 IST" name="browserTerminate" finished-at="2025-11-25T16:57:24 IST" duration-ms="773" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Terminate Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- browserTerminate -->
+        <test-method is-config="true" signature="ReportTerminate()[pri:0, instance:org.dwsapp.allproductstest.ProductTest@2362f559]" started-at="2025-11-25T16:57:24 IST" name="ReportTerminate" finished-at="2025-11-25T16:57:24 IST" duration-ms="274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReportTerminate -->
+      </class> <!-- org.dwsapp.allproductstest.ProductTest -->
+    </test> <!-- Test -->
+  </suite> <!-- RegressionSuite -->
+</testng-results>
