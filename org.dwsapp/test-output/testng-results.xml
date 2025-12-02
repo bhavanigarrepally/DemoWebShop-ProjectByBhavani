@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="1" total="6" passed="4" failed="1" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Browser Setup Success]]>
@@ -29,7 +29,7 @@
       <![CDATA[Checkout button selected]]>
     </line>
     <line>
-      <![CDATA[Step 11: Billing Address Continue button clicked]]>
+      <![CDATA[Billing Address Continue button clicked]]>
     </line>
     <line>
       <![CDATA[Shipping Address Continue button selected]]>
@@ -47,7 +47,184 @@
       <![CDATA[Confirm order Button]]>
     </line>
     <line>
-      <![CDATA[BookTest - HealthBook - verified]]>
+      <![CDATA[Logout success]]>
+    </line>
+    <line>
+      <![CDATA[Login success]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Computer Header]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Accessories Header]]>
+    </line>
+    <line>
+      <![CDATA[Accessories added to cart]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Shopping Cart]]>
+    </line>
+    <line>
+      <![CDATA[terms and Condition checkbox selected]]>
+    </line>
+    <line>
+      <![CDATA[Checkout button selected]]>
+    </line>
+    <line>
+      <![CDATA[Billing Address Continue button clicked]]>
+    </line>
+    <line>
+      <![CDATA[Shipping Address Continue button selected]]>
+    </line>
+    <line>
+      <![CDATA[Shipping Method Continue Button]]>
+    </line>
+    <line>
+      <![CDATA[Payment Method Continue Button]]>
+    </line>
+    <line>
+      <![CDATA[Payment Info Continue Button]]>
+    </line>
+    <line>
+      <![CDATA[Confirm order Button]]>
+    </line>
+    <line>
+      <![CDATA[ComputerTest - Accessories - verified]]>
+    </line>
+    <line>
+      <![CDATA[Logout success]]>
+    </line>
+    <line>
+      <![CDATA[Login success]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Computer Header]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Desktop Header]]>
+    </line>
+    <line>
+      <![CDATA[Desktop added to cart]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Shopping Cart]]>
+    </line>
+    <line>
+      <![CDATA[terms and Condition checkbox selected]]>
+    </line>
+    <line>
+      <![CDATA[Checkout button selected]]>
+    </line>
+    <line>
+      <![CDATA[Billing Address Continue button clicked]]>
+    </line>
+    <line>
+      <![CDATA[Shipping Address Continue button selected]]>
+    </line>
+    <line>
+      <![CDATA[Shipping Method Continue Button]]>
+    </line>
+    <line>
+      <![CDATA[Payment Method Continue Button]]>
+    </line>
+    <line>
+      <![CDATA[Payment Info Continue Button]]>
+    </line>
+    <line>
+      <![CDATA[Confirm order Button]]>
+    </line>
+    <line>
+      <![CDATA[ComputerTest - Desktops - verified]]>
+    </line>
+    <line>
+      <![CDATA[Logout success]]>
+    </line>
+    <line>
+      <![CDATA[Login success]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Electronics Header]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Cellphone Header]]>
+    </line>
+    <line>
+      <![CDATA[Cellphone added to cart]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Shopping Cart]]>
+    </line>
+    <line>
+      <![CDATA[terms and Condition checkbox selected]]>
+    </line>
+    <line>
+      <![CDATA[Checkout button selected]]>
+    </line>
+    <line>
+      <![CDATA[Billing Address Continue button clicked]]>
+    </line>
+    <line>
+      <![CDATA[Shipping Address Continue button selected]]>
+    </line>
+    <line>
+      <![CDATA[Shipping Method Continue Button]]>
+    </line>
+    <line>
+      <![CDATA[Payment Method Continue Button]]>
+    </line>
+    <line>
+      <![CDATA[Payment Info Continue Button]]>
+    </line>
+    <line>
+      <![CDATA[Confirm order Button]]>
+    </line>
+    <line>
+      <![CDATA[ElectronicsTest - Cellphones - verified]]>
+    </line>
+    <line>
+      <![CDATA[Logout success]]>
+    </line>
+    <line>
+      <![CDATA[Login success]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Computer Header]]>
+    </line>
+    <line>
+      <![CDATA[clicked on notebooks header]]>
+    </line>
+    <line>
+      <![CDATA[NoteBook added to cart]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Shopping Cart]]>
+    </line>
+    <line>
+      <![CDATA[terms and Condition checkbox selected]]>
+    </line>
+    <line>
+      <![CDATA[Checkout button selected]]>
+    </line>
+    <line>
+      <![CDATA[Billing Address Continue button clicked]]>
+    </line>
+    <line>
+      <![CDATA[Shipping Address Continue button selected]]>
+    </line>
+    <line>
+      <![CDATA[Shipping Method Continue Button]]>
+    </line>
+    <line>
+      <![CDATA[Payment Method Continue Button]]>
+    </line>
+    <line>
+      <![CDATA[Payment Info Continue Button]]>
+    </line>
+    <line>
+      <![CDATA[Confirm order Button]]>
+    </line>
+    <line>
+      <![CDATA[ComputerTest - NoteBooks - verified]]>
     </line>
     <line>
       <![CDATA[Logout success]]>
@@ -56,19 +233,27 @@
       <![CDATA[Browser Terminate Success]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-11-25T16:56:47 IST" name="RegressionSuite" finished-at="2025-11-25T16:57:24 IST" duration-ms="36775">
+  <suite started-at="2025-12-02T18:17:37 IST" name="RegressionSuite" finished-at="2025-12-02T18:19:07 IST" duration-ms="89600">
     <groups>
       <group name="RT">
-        <method signature="ProductTest.Book_HealthBookTest()[pri:6, instance:org.dwsapp.allproductstest.ProductTest@2362f559]" name="Book_HealthBookTest" class="org.dwsapp.allproductstest.ProductTest"/>
+        <method signature="ProductTest.Book_HealthBookTest()[pri:1, instance:org.dwsapp.allproductstest.ProductTest@247bddad]" name="Book_HealthBookTest" class="org.dwsapp.allproductstest.ProductTest"/>
+        <method signature="ProductTest.Computers_accessoriesTest()[pri:2, instance:org.dwsapp.allproductstest.ProductTest@247bddad]" name="Computers_accessoriesTest" class="org.dwsapp.allproductstest.ProductTest"/>
+        <method signature="ProductTest.Electronics_cellphonesTest()[pri:4, instance:org.dwsapp.allproductstest.ProductTest@247bddad]" name="Electronics_cellphonesTest" class="org.dwsapp.allproductstest.ProductTest"/>
       </group> <!-- RT -->
+      <group name="IT">
+        <method signature="ProductTest.Computers_notebooksTest()[pri:5, instance:org.dwsapp.allproductstest.ProductTest@247bddad]" name="Computers_notebooksTest" class="org.dwsapp.allproductstest.ProductTest"/>
+      </group> <!-- IT -->
+      <group name="FT">
+        <method signature="ProductTest.Computers_desktopTest()[pri:3, instance:org.dwsapp.allproductstest.ProductTest@247bddad]" name="Computers_desktopTest" class="org.dwsapp.allproductstest.ProductTest"/>
+      </group> <!-- FT -->
     </groups>
-    <test started-at="2025-11-25T16:56:47 IST" name="Test" finished-at="2025-11-25T16:57:24 IST" duration-ms="36775">
+    <test started-at="2025-12-02T18:17:37 IST" name="Test" finished-at="2025-12-02T18:19:07 IST" duration-ms="89600">
       <class name="org.dwsapp.allproductstest.ProductTest">
-        <test-method is-config="true" signature="ReportSetup()[pri:0, instance:org.dwsapp.allproductstest.ProductTest@2362f559]" started-at="2025-11-25T16:56:47 IST" name="ReportSetup" finished-at="2025-11-25T16:56:47 IST" duration-ms="329" status="PASS">
+        <test-method is-config="true" signature="ReportSetup()[pri:0, instance:org.dwsapp.allproductstest.ProductTest@247bddad]" started-at="2025-12-02T18:17:37 IST" name="ReportSetup" finished-at="2025-12-02T18:17:37 IST" duration-ms="219" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReportSetup -->
-        <test-method is-config="true" signature="browserSetup(java.lang.String,java.lang.String)[pri:0, instance:org.dwsapp.allproductstest.ProductTest@2362f559]" started-at="2025-11-25T16:56:47 IST" name="browserSetup" finished-at="2025-11-25T16:57:02 IST" duration-ms="15241" status="PASS">
+        <test-method is-config="true" signature="browserSetup(java.lang.String,java.lang.String)[pri:0, instance:org.dwsapp.allproductstest.ProductTest@247bddad]" started-at="2025-12-02T18:17:37 IST" name="browserSetup" finished-at="2025-12-02T18:17:41 IST" duration-ms="3746" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -87,14 +272,85 @@
             </line>
           </reporter-output>
         </test-method> <!-- browserSetup -->
-        <test-method is-config="true" signature="login()[pri:0, instance:org.dwsapp.allproductstest.ProductTest@2362f559]" started-at="2025-11-25T16:57:02 IST" name="login" finished-at="2025-11-25T16:57:05 IST" duration-ms="3217" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:org.dwsapp.allproductstest.ProductTest@247bddad]" started-at="2025-12-02T18:17:41 IST" name="login" finished-at="2025-12-02T18:17:43 IST" duration-ms="2336" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Login success]]>
             </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="Book_HealthBookTest()[pri:6, instance:org.dwsapp.allproductstest.ProductTest@2362f559]" started-at="2025-11-25T16:57:05 IST" name="Book_HealthBookTest" finished-at="2025-11-25T16:57:20 IST" duration-ms="14649" status="PASS">
+        <test-method signature="Book_HealthBookTest()[pri:1, instance:org.dwsapp.allproductstest.ProductTest@247bddad]" started-at="2025-12-02T18:17:43 IST" name="Book_HealthBookTest" finished-at="2025-12-02T18:17:57 IST" duration-ms="13852" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: stale element not found
+  (Session info: chrome=142.0.7444.176)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [843aa29a34605da2f32c466b67188923, clickElement {id=f.071A22C95E0CA106880B9C82D2A82608.d.F6CDB460FF6041D4197A1A59B0E70560.e.135}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\BHAVAN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60268}, goog:processID: 23956, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60268/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (843aa29a34605da2f32c466b67188923)] -> xpath: //input[@value='Continue']]
+Session ID: 843aa29a34605da2f32c466b67188923]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=142.0.7444.176)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [843aa29a34605da2f32c466b67188923, clickElement {id=f.071A22C95E0CA106880B9C82D2A82608.d.F6CDB460FF6041D4197A1A59B0E70560.e.135}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\BHAVAN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60268}, goog:processID: 23956, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60268/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (843aa29a34605da2f32c466b67188923)] -> xpath: //input[@value='Continue']]
+Session ID: 843aa29a34605da2f32c466b67188923
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
+at org.dwsapp.genericlibrary.WebDriverLibrary.clickOnElement(WebDriverLibrary.java:69)
+at org.dwsapp.allproductstest.ProductTest.Book_HealthBookTest(ProductTest.java:218)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
           <reporter-output>
             <line>
               <![CDATA[SearchBox validated successfully]]>
@@ -118,7 +374,61 @@
               <![CDATA[Checkout button selected]]>
             </line>
             <line>
-              <![CDATA[Step 11: Billing Address Continue button clicked]]>
+              <![CDATA[Billing Address Continue button clicked]]>
+            </line>
+            <line>
+              <![CDATA[Shipping Address Continue button selected]]>
+            </line>
+            <line>
+              <![CDATA[Shipping Method Continue Button]]>
+            </line>
+            <line>
+              <![CDATA[Payment Method Continue Button]]>
+            </line>
+            <line>
+              <![CDATA[Payment Info Continue Button]]>
+            </line>
+            <line>
+              <![CDATA[Confirm order Button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Book_HealthBookTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:org.dwsapp.allproductstest.ProductTest@247bddad]" started-at="2025-12-02T18:17:57 IST" name="logout" finished-at="2025-12-02T18:17:58 IST" duration-ms="1354" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:org.dwsapp.allproductstest.ProductTest@247bddad]" started-at="2025-12-02T18:17:58 IST" name="login" finished-at="2025-12-02T18:18:01 IST" duration-ms="2242" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="Computers_accessoriesTest()[pri:2, instance:org.dwsapp.allproductstest.ProductTest@247bddad]" started-at="2025-12-02T18:18:01 IST" name="Computers_accessoriesTest" finished-at="2025-12-02T18:18:12 IST" duration-ms="10818" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on Computer Header]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Accessories Header]]>
+            </line>
+            <line>
+              <![CDATA[Accessories added to cart]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Shopping Cart]]>
+            </line>
+            <line>
+              <![CDATA[terms and Condition checkbox selected]]>
+            </line>
+            <line>
+              <![CDATA[Checkout button selected]]>
+            </line>
+            <line>
+              <![CDATA[Billing Address Continue button clicked]]>
             </line>
             <line>
               <![CDATA[Shipping Address Continue button selected]]>
@@ -136,25 +446,196 @@
               <![CDATA[Confirm order Button]]>
             </line>
             <line>
-              <![CDATA[BookTest - HealthBook - verified]]>
+              <![CDATA[ComputerTest - Accessories - verified]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Book_HealthBookTest -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:org.dwsapp.allproductstest.ProductTest@2362f559]" started-at="2025-11-25T16:57:20 IST" name="logout" finished-at="2025-11-25T16:57:23 IST" duration-ms="2823" status="PASS">
+        </test-method> <!-- Computers_accessoriesTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:org.dwsapp.allproductstest.ProductTest@247bddad]" started-at="2025-12-02T18:18:12 IST" name="logout" finished-at="2025-12-02T18:18:15 IST" duration-ms="3007" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Logout success]]>
             </line>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="browserTerminate()[pri:0, instance:org.dwsapp.allproductstest.ProductTest@2362f559]" started-at="2025-11-25T16:57:23 IST" name="browserTerminate" finished-at="2025-11-25T16:57:24 IST" duration-ms="773" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:org.dwsapp.allproductstest.ProductTest@247bddad]" started-at="2025-12-02T18:18:15 IST" name="login" finished-at="2025-12-02T18:18:17 IST" duration-ms="2261" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="Computers_desktopTest()[pri:3, instance:org.dwsapp.allproductstest.ProductTest@247bddad]" started-at="2025-12-02T18:18:17 IST" name="Computers_desktopTest" finished-at="2025-12-02T18:18:30 IST" duration-ms="13281" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on Computer Header]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Desktop Header]]>
+            </line>
+            <line>
+              <![CDATA[Desktop added to cart]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Shopping Cart]]>
+            </line>
+            <line>
+              <![CDATA[terms and Condition checkbox selected]]>
+            </line>
+            <line>
+              <![CDATA[Checkout button selected]]>
+            </line>
+            <line>
+              <![CDATA[Billing Address Continue button clicked]]>
+            </line>
+            <line>
+              <![CDATA[Shipping Address Continue button selected]]>
+            </line>
+            <line>
+              <![CDATA[Shipping Method Continue Button]]>
+            </line>
+            <line>
+              <![CDATA[Payment Method Continue Button]]>
+            </line>
+            <line>
+              <![CDATA[Payment Info Continue Button]]>
+            </line>
+            <line>
+              <![CDATA[Confirm order Button]]>
+            </line>
+            <line>
+              <![CDATA[ComputerTest - Desktops - verified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Computers_desktopTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:org.dwsapp.allproductstest.ProductTest@247bddad]" started-at="2025-12-02T18:18:30 IST" name="logout" finished-at="2025-12-02T18:18:32 IST" duration-ms="1603" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:org.dwsapp.allproductstest.ProductTest@247bddad]" started-at="2025-12-02T18:18:32 IST" name="login" finished-at="2025-12-02T18:18:39 IST" duration-ms="6835" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="Electronics_cellphonesTest()[pri:4, instance:org.dwsapp.allproductstest.ProductTest@247bddad]" started-at="2025-12-02T18:18:39 IST" name="Electronics_cellphonesTest" finished-at="2025-12-02T18:18:48 IST" duration-ms="9725" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on Electronics Header]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Cellphone Header]]>
+            </line>
+            <line>
+              <![CDATA[Cellphone added to cart]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Shopping Cart]]>
+            </line>
+            <line>
+              <![CDATA[terms and Condition checkbox selected]]>
+            </line>
+            <line>
+              <![CDATA[Checkout button selected]]>
+            </line>
+            <line>
+              <![CDATA[Billing Address Continue button clicked]]>
+            </line>
+            <line>
+              <![CDATA[Shipping Address Continue button selected]]>
+            </line>
+            <line>
+              <![CDATA[Shipping Method Continue Button]]>
+            </line>
+            <line>
+              <![CDATA[Payment Method Continue Button]]>
+            </line>
+            <line>
+              <![CDATA[Payment Info Continue Button]]>
+            </line>
+            <line>
+              <![CDATA[Confirm order Button]]>
+            </line>
+            <line>
+              <![CDATA[ElectronicsTest - Cellphones - verified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Electronics_cellphonesTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:org.dwsapp.allproductstest.ProductTest@247bddad]" started-at="2025-12-02T18:18:48 IST" name="logout" finished-at="2025-12-02T18:18:50 IST" duration-ms="1660" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:org.dwsapp.allproductstest.ProductTest@247bddad]" started-at="2025-12-02T18:18:50 IST" name="login" finished-at="2025-12-02T18:18:55 IST" duration-ms="4907" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="Computers_notebooksTest()[pri:5, instance:org.dwsapp.allproductstest.ProductTest@247bddad]" started-at="2025-12-02T18:18:55 IST" name="Computers_notebooksTest" finished-at="2025-12-02T18:19:05 IST" duration-ms="9873" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on Computer Header]]>
+            </line>
+            <line>
+              <![CDATA[clicked on notebooks header]]>
+            </line>
+            <line>
+              <![CDATA[NoteBook added to cart]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Shopping Cart]]>
+            </line>
+            <line>
+              <![CDATA[terms and Condition checkbox selected]]>
+            </line>
+            <line>
+              <![CDATA[Checkout button selected]]>
+            </line>
+            <line>
+              <![CDATA[Billing Address Continue button clicked]]>
+            </line>
+            <line>
+              <![CDATA[Shipping Address Continue button selected]]>
+            </line>
+            <line>
+              <![CDATA[Shipping Method Continue Button]]>
+            </line>
+            <line>
+              <![CDATA[Payment Method Continue Button]]>
+            </line>
+            <line>
+              <![CDATA[Payment Info Continue Button]]>
+            </line>
+            <line>
+              <![CDATA[Confirm order Button]]>
+            </line>
+            <line>
+              <![CDATA[ComputerTest - NoteBooks - verified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Computers_notebooksTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:org.dwsapp.allproductstest.ProductTest@247bddad]" started-at="2025-12-02T18:19:05 IST" name="logout" finished-at="2025-12-02T18:19:06 IST" duration-ms="1227" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="browserTerminate()[pri:0, instance:org.dwsapp.allproductstest.ProductTest@247bddad]" started-at="2025-12-02T18:19:06 IST" name="browserTerminate" finished-at="2025-12-02T18:19:07 IST" duration-ms="601" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser Terminate Success]]>
             </line>
           </reporter-output>
         </test-method> <!-- browserTerminate -->
-        <test-method is-config="true" signature="ReportTerminate()[pri:0, instance:org.dwsapp.allproductstest.ProductTest@2362f559]" started-at="2025-11-25T16:57:24 IST" name="ReportTerminate" finished-at="2025-11-25T16:57:24 IST" duration-ms="274" status="PASS">
+        <test-method is-config="true" signature="ReportTerminate()[pri:0, instance:org.dwsapp.allproductstest.ProductTest@247bddad]" started-at="2025-12-02T18:19:07 IST" name="ReportTerminate" finished-at="2025-12-02T18:19:07 IST" duration-ms="262" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReportTerminate -->

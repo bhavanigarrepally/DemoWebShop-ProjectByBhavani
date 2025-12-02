@@ -9,7 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class WelcomePage {
 
-	@FindBy(partialLinkText = "Log")
+	@FindBy(xpath = "//a[@href='/login']")
 	//Identify and Declare Securely
 	private WebElement loginlink;
 	
@@ -43,7 +43,7 @@ public class WelcomePage {
 	@FindBy(xpath = "(//a[contains(text(),'Cell phones')])[1]")
 	private WebElement cellphoneHeader;
 	
-	@FindBy(xpath = "// a/span[1][contains(text(),'Shopping cart')]")
+	@FindBy(xpath = "//span[contains(text(),'Shopping cart')]")
 	private WebElement shoppingCart;
 	
 	

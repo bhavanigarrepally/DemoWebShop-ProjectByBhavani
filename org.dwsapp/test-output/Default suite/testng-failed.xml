@@ -3,15 +3,21 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.dwsapp.producttest.BookTest">
+      <class name="org.dwsapp.allproductstest.ProductTest">
         <methods>
-          <include name="HealthBook"/>
+          <include name="Computers_notebooksTest"/>
+          <include name="ReportSetup"/>
           <include name="browserTerminate"/>
+          <include name="Computers_desktopTest"/>
+          <include name="Book_HealthBookTest"/>
           <include name="logout"/>
           <include name="login"/>
           <include name="browserSetup"/>
+          <include name="Electronics_cellphonesTest"/>
+          <include name="Computers_accessoriesTest"/>
+          <include name="ReportTerminate"/>
         </methods>
-      </class> <!-- org.dwsapp.producttest.BookTest -->
+      </class> <!-- org.dwsapp.allproductstest.ProductTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

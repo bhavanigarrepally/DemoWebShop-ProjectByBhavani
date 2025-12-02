@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-RegressionSuite" class="navigator-link">
-              <span class="suite-name border-passed">RegressionSuite</span>
+              <span class="suite-name border-failed">RegressionSuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-RegressionSuite" class="navigator-link ">
-                    <span>C:\Users\bhavanigarrepalli\eclipse-workspace\org.dwsapp\RegressionTest.xml</span>
+                    <span>C:\Users\bhavanigarrepalli\git\repository\org.dwsapp\RegressionTest.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -60,7 +60,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="group-RegressionSuite" class="navigator-link ">
-                    <span>1 group</span>
+                    <span>3 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-RegressionSuite" class="hide-methods failed suite-RegressionSuite"> (hide)</a> <!-- hide-methods failed suite-RegressionSuite -->
+                      <a href="#" panel-name="suite-RegressionSuite" class="show-methods failed suite-RegressionSuite"> (show)</a> <!-- show-methods failed suite-RegressionSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-RegressionSuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite" title="org.dwsapp.allproductstest.ProductTest" class="method navigator-link" hash-for-method="Book_HealthBookTest">Book_HealthBookTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-RegressionSuite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,7 +117,22 @@
                     <div class="method-list-content passed suite-RegressionSuite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-RegressionSuite" title="org.dwsapp.allproductstest.ProductTest" class="method navigator-link" hash-for-method="Book_HealthBookTest">Book_HealthBookTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-RegressionSuite" title="org.dwsapp.allproductstest.ProductTest" class="method navigator-link" hash-for-method="Computers_accessoriesTest">Computers_accessoriesTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite" title="org.dwsapp.allproductstest.ProductTest" class="method navigator-link" hash-for-method="Computers_desktopTest">Computers_desktopTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite" title="org.dwsapp.allproductstest.ProductTest" class="method navigator-link" hash-for-method="Computers_notebooksTest">Computers_notebooksTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite" title="org.dwsapp.allproductstest.ProductTest" class="method navigator-link" hash-for-method="Electronics_cellphonesTest">Electronics_cellphonesTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-RegressionSuite -->
@@ -118,9 +147,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-RegressionSuite" class="panel RegressionSuite">
-          <div class="suite-RegressionSuite-class-passed">
+          <div class="suite-RegressionSuite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">org.dwsapp.allproductstest.ProductTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -129,6 +158,68 @@
                   <a name="Book_HealthBookTest">
                   </a> <!-- Book_HealthBookTest -->
                   <span class="method-name">Book_HealthBookTest</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=142.0.7444.176)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: &apos;4.38.0&apos;, revision: &apos;6b412e825c*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [843aa29a34605da2f32c466b67188923, clickElement {id=f.071A22C95E0CA106880B9C82D2A82608.d.F6CDB460FF6041D4197A1A59B0E70560.e.135}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\BHAVAN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60268}, goog:processID: 23956, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60268/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (843aa29a34605da2f32c466b67188923)] -&gt; xpath: //input[@value=&apos;Continue&apos;]]
+Session ID: 843aa29a34605da2f32c466b67188923
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
+	at org.dwsapp.genericlibrary.WebDriverLibrary.clickOnElement(WebDriverLibrary.java:69)
+	at org.dwsapp.allproductstest.ProductTest.Book_HealthBookTest(ProductTest.java:218)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RegressionSuite-class-failed -->
+          <div class="suite-RegressionSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.dwsapp.allproductstest.ProductTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Computers_accessoriesTest">
+                  </a> <!-- Computers_accessoriesTest -->
+                  <span class="method-name">Computers_accessoriesTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Computers_desktopTest">
+                  </a> <!-- Computers_desktopTest -->
+                  <span class="method-name">Computers_desktopTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Computers_notebooksTest">
+                  </a> <!-- Computers_notebooksTest -->
+                  <span class="method-name">Computers_notebooksTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Electronics_cellphonesTest">
+                  </a> <!-- Electronics_cellphonesTest -->
+                  <span class="method-name">Electronics_cellphonesTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -136,7 +227,7 @@
         </div> <!-- panel RegressionSuite -->
         <div panel-name="test-xml-RegressionSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\bhavanigarrepalli\eclipse-workspace\org.dwsapp\RegressionTest.xml</span>
+            <span class="header-content">C:\Users\bhavanigarrepalli\git\repository\org.dwsapp\RegressionTest.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -175,10 +266,34 @@
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="test-group">
+              <span class="test-group-name">FT</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Computers_desktopTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">IT</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Computers_notebooksTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
               <span class="test-group-name">RT</span>
               <br/>
               <div class="method-in-group">
                 <span class="method-in-group-name">Book_HealthBookTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Computers_accessoriesTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Electronics_cellphonesTest</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -198,16 +313,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'Book_HealthBookTest')
 data.setCell(0, 2, 'org.dwsapp.allproductstest.ProductTest')
-data.setCell(0, 3, 14649);
+data.setCell(0, 3, 13852);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Computers_desktopTest')
+data.setCell(1, 2, 'org.dwsapp.allproductstest.ProductTest')
+data.setCell(1, 3, 13281);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Computers_accessoriesTest')
+data.setCell(2, 2, 'org.dwsapp.allproductstest.ProductTest')
+data.setCell(2, 3, 10818);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Computers_notebooksTest')
+data.setCell(3, 2, 'org.dwsapp.allproductstest.ProductTest')
+data.setCell(3, 3, 9873);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Electronics_cellphonesTest')
+data.setCell(4, 2, 'org.dwsapp.allproductstest.ProductTest')
+data.setCell(4, 3, 9725);
 window.suiteTableData['RegressionSuite']= { tableData: data, tableDiv: 'times-div-RegressionSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 14 seconds</span>
+              <span class="suite-total-time">Total running time: 57 seconds</span>
               <div id="times-div-RegressionSuite">
               </div> <!-- times-div-RegressionSuite -->
             </div> <!-- times-div -->
@@ -219,6 +350,78 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
+              <span class="reporter-method-name">Computers_accessoriesTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Clicked on Computer Header</span>
+                <span class="reporter-method-output">Clicked on Accessories Header</span>
+                <span class="reporter-method-output">Accessories added to cart</span>
+                <span class="reporter-method-output">Clicked on Shopping Cart</span>
+                <span class="reporter-method-output">terms and Condition checkbox selected</span>
+                <span class="reporter-method-output">Checkout button selected</span>
+                <span class="reporter-method-output">Billing Address Continue button clicked</span>
+                <span class="reporter-method-output">Shipping Address Continue button selected</span>
+                <span class="reporter-method-output">Shipping Method Continue Button</span>
+                <span class="reporter-method-output">Payment Method Continue Button</span>
+                <span class="reporter-method-output">Payment Info Continue Button</span>
+                <span class="reporter-method-output">Confirm order Button</span>
+                <span class="reporter-method-output">ComputerTest - Accessories - verified</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Computers_notebooksTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Clicked on Computer Header</span>
+                <span class="reporter-method-output">clicked on notebooks header</span>
+                <span class="reporter-method-output">NoteBook added to cart</span>
+                <span class="reporter-method-output">Clicked on Shopping Cart</span>
+                <span class="reporter-method-output">terms and Condition checkbox selected</span>
+                <span class="reporter-method-output">Checkout button selected</span>
+                <span class="reporter-method-output">Billing Address Continue button clicked</span>
+                <span class="reporter-method-output">Shipping Address Continue button selected</span>
+                <span class="reporter-method-output">Shipping Method Continue Button</span>
+                <span class="reporter-method-output">Payment Method Continue Button</span>
+                <span class="reporter-method-output">Payment Info Continue Button</span>
+                <span class="reporter-method-output">Confirm order Button</span>
+                <span class="reporter-method-output">ComputerTest - NoteBooks - verified</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Computers_desktopTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Clicked on Computer Header</span>
+                <span class="reporter-method-output">Clicked on Desktop Header</span>
+                <span class="reporter-method-output">Desktop added to cart</span>
+                <span class="reporter-method-output">Clicked on Shopping Cart</span>
+                <span class="reporter-method-output">terms and Condition checkbox selected</span>
+                <span class="reporter-method-output">Checkout button selected</span>
+                <span class="reporter-method-output">Billing Address Continue button clicked</span>
+                <span class="reporter-method-output">Shipping Address Continue button selected</span>
+                <span class="reporter-method-output">Shipping Method Continue Button</span>
+                <span class="reporter-method-output">Payment Method Continue Button</span>
+                <span class="reporter-method-output">Payment Info Continue Button</span>
+                <span class="reporter-method-output">Confirm order Button</span>
+                <span class="reporter-method-output">ComputerTest - Desktops - verified</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Electronics_cellphonesTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Clicked on Electronics Header</span>
+                <span class="reporter-method-output">Clicked on Cellphone Header</span>
+                <span class="reporter-method-output">Cellphone added to cart</span>
+                <span class="reporter-method-output">Clicked on Shopping Cart</span>
+                <span class="reporter-method-output">terms and Condition checkbox selected</span>
+                <span class="reporter-method-output">Checkout button selected</span>
+                <span class="reporter-method-output">Billing Address Continue button clicked</span>
+                <span class="reporter-method-output">Shipping Address Continue button selected</span>
+                <span class="reporter-method-output">Shipping Method Continue Button</span>
+                <span class="reporter-method-output">Payment Method Continue Button</span>
+                <span class="reporter-method-output">Payment Info Continue Button</span>
+                <span class="reporter-method-output">Confirm order Button</span>
+                <span class="reporter-method-output">ElectronicsTest - Cellphones - verified</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
               <span class="reporter-method-name">Book_HealthBookTest</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">SearchBox validated successfully</span>
@@ -228,22 +431,28 @@ return data;
                 <span class="reporter-method-output">Clicked on Shopping Cart</span>
                 <span class="reporter-method-output">terms and Condition checkbox selected</span>
                 <span class="reporter-method-output">Checkout button selected</span>
-                <span class="reporter-method-output">Step 11: Billing Address Continue button clicked</span>
+                <span class="reporter-method-output">Billing Address Continue button clicked</span>
                 <span class="reporter-method-output">Shipping Address Continue button selected</span>
                 <span class="reporter-method-output">Shipping Method Continue Button</span>
                 <span class="reporter-method-output">Payment Method Continue Button</span>
                 <span class="reporter-method-output">Payment Info Continue Button</span>
                 <span class="reporter-method-output">Confirm order Button</span>
-                <span class="reporter-method-output">BookTest - HealthBook - verified</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-RegressionSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">1 ignored method</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">org.dwsapp.allproductstest.ProductTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Electronics_CameraAndPhotoTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-RegressionSuite" class="panel">
@@ -259,27 +468,77 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
                 <span class="method-name">browserSetup(https://demowebshop.tricentis.com/, chrome)</span>
-                <span class="method-start">353 ms</span>
+                <span class="method-start">241 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">login</span>
-                <span class="method-start">15623 ms</span>
+                <span class="method-start">4004 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">Book_HealthBookTest</span>
-                <span class="method-start">18848 ms</span>
+                <span class="method-start">6344 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">logout</span>
-                <span class="method-start">33505 ms</span>
+                <span class="method-start">20385 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">login</span>
+                <span class="method-start">21755 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Computers_accessoriesTest</span>
+                <span class="method-start">23997 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logout</span>
+                <span class="method-start">34818 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">login</span>
+                <span class="method-start">37827 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Computers_desktopTest</span>
+                <span class="method-start">40088 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logout</span>
+                <span class="method-start">53372 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">login</span>
+                <span class="method-start">54975 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Electronics_cellphonesTest</span>
+                <span class="method-start">61810 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logout</span>
+                <span class="method-start">71539 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">login</span>
+                <span class="method-start">73204 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Computers_notebooksTest</span>
+                <span class="method-start">78111 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logout</span>
+                <span class="method-start">87992 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">browserTerminate</span>
-                <span class="method-start">36328 ms</span>
+                <span class="method-start">89219 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-suite after">
                 <span class="method-name">ReportTerminate</span>
-                <span class="method-start">37175 ms</span>
+                <span class="method-start">89855 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

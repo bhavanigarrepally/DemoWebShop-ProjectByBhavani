@@ -2,6 +2,7 @@ package org.dwsapp.genericlibrary;
 
 import java.time.Duration;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -18,6 +19,7 @@ public class WebDriverLibrary implements ProjectConstant {
 	public static WebDriver stdriver;
 	public Actions actionobj;
 	public Select selectobj;
+	public JavascriptExecutor jse;
 
 	// Step1: Open the Browser
 	public WebDriver openBrowser(String browser) {
@@ -106,6 +108,11 @@ public class WebDriverLibrary implements ProjectConstant {
 		selectobj = new Select(dropdown);
 
 		selectobj.selectByVisibleText(visibleText);
+	}
+	
+	public void clickElement_usingJsCode(WebElement element) {
+		jse = (JavascriptExecutor)driver;
+		jse.executeScript("arguments[0].click()", element);
 	}
 
 }

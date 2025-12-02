@@ -31,6 +31,9 @@ public class CheckOutPage {
 	@FindBy(xpath = "//input[@value = 'Confirm']")
 	private WebElement confirmOrder;
 	
+	@FindBy(xpath = "//input[@value='Continue']")
+	private WebElement confirmOrderSuccess;
+	
 	public CheckOutPage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 	}
@@ -65,6 +68,10 @@ public class CheckOutPage {
 	
 	public WebElement getconfirmOrder() {
 		return confirmOrder;
+	}
+	
+	public WebElement getconfirmOrderSuccess() {
+		return confirmOrderSuccess;
 	}
 	
 	

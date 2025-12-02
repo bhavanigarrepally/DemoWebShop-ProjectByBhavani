@@ -101,9 +101,9 @@ public class BasicConfig extends WebDriverLibrary{
 			plib = new PropertiesLibrary();
 			
 			wpobj = new WelcomePage(driver);
+			
+			
 			waitStatement(wpobj.getloginlink());
-			
-			
 			clickOnElement(wpobj.getloginlink());
 			
 			
@@ -129,8 +129,9 @@ public class BasicConfig extends WebDriverLibrary{
 			
 			
 			wpobj = new WelcomePage(driver);
+			
 			waitStatement(wpobj.getlogoutlink());
-			clickOnElement_UsingActions(wpobj.getlogoutlink());
+			clickElement_usingJsCode(wpobj.getlogoutlink());
 			
 			
 			Reporter.log("Logout success", true);
